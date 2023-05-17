@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../img/image1.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__text a {
+    background-color: #05365a8d;
+    border: 2px solid #a8adaa;
+    color: wheat;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.intro-image__text a:hover {
+    transform: scale(1.1);
+}
+
+.intro-text {
+    clip-path: polygon(50% 20%, 100% 0, 100% 80%, 50% 100%, 50% 100%, 0 80%, 0 0);
+    background-color: #524e49;
+    color: rgb(225, 191, 126);
+    display: flex;
+    margin-top: -10rem;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    padding: 0 15rem;
+
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.packaging-image{
+    background-attachment: fixed;
+    background-image: url('../img/image2.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 550px;
+    margin-top: -10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-image__text a {
+    background-color: #05365a8d;
+    opacity: 0.8;
+    border: 2px solid #8d93a8;
+    color: wheat;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 2rem;
+    margin-top: 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+.packaging-image__text a:hover {
+    transform:scale(1.2);
+}
+
+.packaging-text {
+    background-color: #524e49;
+    color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    padding: 0 15rem;
+}
+
+.packaging_text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url('../img/image3.jpeg');
+    background-size: cover;
+    background-position: bottom;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorials-image__text a {
+    background-color: #2c87c78d;
+    border: 2px solid rgb(37, 35, 32);
+    color: #282723;
+    display: inline-block;
+    font-size: 2.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+.tutorials-image__text a:hover {
+    transform:scale(1.2);
+}
+
+.footer {
+    height: 250px;
+    background-color: #524e49;
+    color: wheat;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: wheat;
+    text-shadow: 0 0 5px #0b4770, 0 0 5px rgb(12, 129, 155);
+    border-color: #282723;
+    text-decoration: none;
+}
+
+.footer ul li:hover {
+    transform: scale(1.3);
+}
